@@ -48,3 +48,7 @@
     cursor: pointer;
     background-color: rgba(235, 87, 87, 0.3);
 }
+
+.btn-delete:hover {
+    background-color: rgba(235, 87, 87, 0.5);
+}

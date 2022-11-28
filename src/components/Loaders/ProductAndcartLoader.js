@@ -8,7 +8,7 @@ export const ProductAndCartLoader = async () => {
     const savedCart = getStoredCard();
     const initialCart = [];
     for (const id in savedCart) {
-        const addedProduct = products.find(product => product.id === id)
+        const addedProduct = products.find(product => product.id === id); //ai Id gulo k sudu nibo.
         if (addedProduct) {
             const quantity = savedCart[id];
             addedProduct.quantity = quantity;
