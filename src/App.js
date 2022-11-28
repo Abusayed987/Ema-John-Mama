@@ -3,6 +3,8 @@ import './App.css';
 import About from './components/About/About';
 import Inventory from './components/Inventory/Inventory';
 import Main from './components/layout/Main';
+import { ProductAndCartLoader } from './components/Loaders/ProductAndcartLoader';
+
 import Login from './components/Login/Login';
 import Orders from './components/Orders/Orders';
 import Shop from './components/Shop/Shop';
@@ -21,7 +23,7 @@ function App() {
         },
         {
           path: '/orders',
-          loader: () => fetch('products.json'),
+          loader: ProductAndCartLoader,
           element: <Orders></Orders>
         },
         { path: '/about', element: <About></About> },
