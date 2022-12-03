@@ -5,3 +5,7 @@
     border-radius: 8px;
     margin: 30px auto;
 }
+
+.error-text {
+    color: rgb(247, 35, 35);
+}
