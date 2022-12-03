@@ -14,7 +14,11 @@ const Signup = () => {
                     <label htmlFor="password">Password</label>
                     <input type="password" name="password" id="" required />
                 </div>
-                <button className='btn-submit' type='submit' value='login'>Login</button>
+                <div className="from-control">
+                    <label htmlFor="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" id="" required />
+                </div>
+                <button className='btn-submit' type='submit' value='login'>Sign Up</button>
                 <p>Already have an account?<Link to='/login'>  Login</Link></p>
             </form>
         </div>
