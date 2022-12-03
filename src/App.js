@@ -8,6 +8,7 @@ import { ProductAndCartLoader } from './components/Loaders/ProductAndcartLoader'
 import Login from './components/Login/Login';
 import Orders from './components/Orders/Orders';
 import Shop from './components/Shop/Shop';
+import Signup from './components/Signup/Signup';
 
 
 
@@ -28,7 +29,8 @@ function App() {
         },
         { path: '/about', element: <About></About> },
         { path: '/inventory', element: <Inventory></Inventory> },
-        { path: '/login', element: <Login></Login> }
+        { path: '/login', element: <Login></Login> },
+        { path: '/signup', element: <Signup></Signup> }
       ]
     },
 
